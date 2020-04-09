@@ -36,6 +36,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'coveralls', '~> 0.8.23'
+  gem 'figaro'
+  gem 'omniauth-github'
   gem 'rake'
   gem 'rspec-rails', '~> 3.5'
   gem 'rubocop'
