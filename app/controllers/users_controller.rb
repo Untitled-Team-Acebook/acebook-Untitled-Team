@@ -39,6 +39,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def add_friend(user)
+    current_user.friend_request(user)
+  end
+
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update

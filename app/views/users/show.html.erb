@@ -1,4 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<% current_user.pending_friends.each do |friend|%>
+<p><%= friend.name %> </p>
+<% end %>
+
+
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
