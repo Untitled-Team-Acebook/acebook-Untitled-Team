@@ -15,8 +15,7 @@ rvm:
 - 2.5.0
 deploy:
   run:
-    - brew install imagemagick
-    - bundle exec figaro install
+    - bin/rails db:migrate
   provider: heroku
   strategy: git
   api_key:
