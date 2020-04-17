@@ -3,7 +3,7 @@
 
 
   <% if current_user == @user %>
-    <h4><%= 'your posts ' %><%= "(#{current_user.posts.count})" %></h4>
+    <h4><%= 'Your posts: ' %><%= "(#{current_user.posts.count})" %></h4>
   <% else %>
     <h4><%= "#{@user.name}'s posts "%><%= "(#{@user.posts.count})" %>
     </h4>
@@ -49,4 +49,3 @@
     <% end %>
 
     <%= link_to 'Back', users_path %>
-
