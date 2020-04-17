@@ -21,4 +21,18 @@ def self.generate_json()
     f.write("friends = #{friends.to_json()}")
   end
 end
+def self.generate_json_friends_of_friends(user)
+  friends = {nodes: [], links: []}
+
+  friends[:nodes] << {id: user.id, name: user.name, rank: 1}
+  
+  user.friends.each do |friend|
+    friends[:nodes] << { id: friend.id, name: friend.name, rank: 2 }
+    friends[:links] << { source: user.id, target: friend.id }
+  end
+
+  File.open("public/friend_group_data.js","w") do |f|
+    f.write("friends = #{friends.to_json()}")
+  end
+end
 end
