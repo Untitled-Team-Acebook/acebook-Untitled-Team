@@ -2,7 +2,7 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
-max_friends_count = 200
+max_friends_count = 100
 user_password = '123456'
 user_list = [
   ['James Holloway', 'james@gmail.com'],
@@ -27,7 +27,41 @@ user_list = [
   ['Bernadette Beahan', 'Bernadette@gmail.com'],
   ['Jerad Marquardt', 'Jerad@gmail.com'],
   ['Diego Harris', 'Diego@gmail.com'],
-  ['Merle Maggio', 'Merle@gmail.com']
+  ['Merle Maggio', 'Merle@gmail.com'],
+  ['Kathlyn Schowalter','Kathlyn_Schowalter@gmail.com'],
+  ['Meghan Monahan','Meghan_Monahan@gmail.com'],
+  ['Carter Schumm','Carter_Schumm@gmail.com'],
+  ['Courtney Rowe','Courtney_Rowe@gmail.com'],
+  ['Alisa Torphy','Alisa_Torphy@gmail.com'],
+  ['Mabelle Strosin','Mabelle_Strosin@gmail.com'],
+  ['Sonia Langosh','Sonia_Langosh@gmail.com'],
+  ['Aniyah Moore','Aniyah_Moore@gmail.com'],
+  ['Titus Bogan','Titus_Bogan@gmail.com'],
+  ['Myrl Conn','Myrl_Conn@gmail.com'],
+  ['Buddy Mitchell','Buddy_Mitchell@gmail.com'],
+  ['Tomasa Barton','Tomasa_Barton@gmail.com'],
+  ['Melvina Johnson','Melvina_Johnson@gmail.com'],
+  ['Wilson Terry','Wilson_Terry@gmail.com'],
+  ['Violette McDermott','Violette_McDermott@gmail.com'],
+  ['Edwin Willms','Edwin_Willms@gmail.com'],
+  ['Ona Crooks','Ona_Crooks@gmail.com'],
+  ['Catharine Roob','Catharine_Roob@gmail.com'],
+  ['Yoshiko Turcotte','Yoshiko_Turcotte@gmail.com'],
+  ['Zaria Monahan','Zaria_Monahan@gmail.com'],
+  ['Virgil Kuhlman','Virgil_Kuhlman@gmail.com'],
+  ['Moses Osinski','Moses_Osinski@gmail.com'],
+  ['Marty Klocko','Marty_Klocko@gmail.com'],
+  ['Liam Mayer','Liam_Mayer@gmail.com'],
+  ['Victoria Dicki','Victoria_Dicki@gmail.com'],
+  ['Salvador Ritchie','Salvador_Ritchie@gmail.com'],
+  ['Ova Fadel','Ova_Fadel@gmail.com'],
+  ['Katheryn Ward','Katheryn_Ward@gmail.com'],
+  ['Stephany Dietrich','Stephany_Dietrich@gmail.com'],
+  ['Danyka Littel','Danyka_Littel@gmail.com'],
+  ['Lou Watsica','Lou_Watsica@gmail.com'],
+  ['Rose Brekke','Rose_Brekke@gmail.com'],
+  ['Ed Nitzsche','Ed_Nitzsche@gmail.com'],
+  ['Clement Romaguera','Clement_Romaguera@gmail.com']
 ]
 
 post_list = [

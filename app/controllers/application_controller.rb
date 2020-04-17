@@ -1,10 +1,7 @@
 # frozen_string_literal: true
-
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :require_login
-
-
 
   def current_user
     @current_user ||= User.find_by(id: session[:user_id])
@@ -31,6 +28,6 @@ class ApplicationController < ActionController::Base
   def friends_of(id)
     Friendship.where(user_id: id)
   end
-
+  
   helper_method :current_user, :create_session, :friends_of
 end
