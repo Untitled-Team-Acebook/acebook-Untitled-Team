@@ -1,0 +1,18 @@
+.links line {
+  stroke-width: 2px;
+  stroke: #636363;
+}
+
+.nodes circle {
+  stroke: #bfbfbf;
+}
+
+#friend-graph {
+  width: 100%;
+}
+text {
+  pointer-events: none;
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
