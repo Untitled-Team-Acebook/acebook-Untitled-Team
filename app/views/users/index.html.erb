@@ -17,11 +17,12 @@
       <tr>
         <td><%= link_to user.name, user %></td>
         <td><%= user.email %></td>
-        <%# <% if user != current_user %> 
-        <td><%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %></td>
-        <%# <% else %> 
-        <%# <% end %>
-        
+        <% preadd = user.friendships.find { |friendship| friendship.user_id == current_user.id || friendship.friend_id == current_user.id} %>
+        <%unless preadd %>
+          <td><%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %></td>
+
+        <% end %>
+
       </tr>
       <% end %>
     <% end %>
